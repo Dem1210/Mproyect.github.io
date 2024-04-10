@@ -87,7 +87,7 @@ function App() {
       {loading? (
         <>
           <ScaleLoader size={50} color={'#F5F6F8'} />
-          <h2>Presione el ícono de siguiente canción para iniciar la aplicación.</h2>
+          <h2 className='text-center p-4' >Presione el ícono de siguiente canción para iniciar la aplicación.</h2>
         </>
       ):(
 
